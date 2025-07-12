@@ -1,0 +1,21 @@
+{
+  "name": "玉避けゲーム",
+  "short_name": "玉避け",
+  "description": "大きな玉を避けるシンプルなゲーム",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#222222",
+  "theme_color": "#4CAF50",
+  "icons": [
+    {
+      "src": "images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
