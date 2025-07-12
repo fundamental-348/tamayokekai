@@ -43,8 +43,8 @@ document.addEventListener('DOMContentLoaded', () => {
         // 敵ボールをランダムな位置に配置し、ランダムな速度を設定
         enemyX = Math.random() * (gameContainerWidth - enemyBallSize);
         enemyY = Math.random() * (gameContainerHeight / 2 - enemyBallSize); // 上半分に初期配置
-        enemySpeedX = (Math.random() - 0.5) * 10; // -3 から 3 の範囲
-        enemySpeedY = (Math.random() - 0.5) * 10; // -3 から 3 の範囲
+        enemySpeedX = (Math.random() - 0.5) * 20; // -3 から 3 の範囲
+        enemySpeedY = (Math.random() - 0.5) * 20; // -3 から 3 の範囲
         // 速度が小さすぎる場合は調整
         if (Math.abs(enemySpeedX) < 1) enemySpeedX = enemySpeedX > 0 ? 1 : -1;
         if (Math.abs(enemySpeedY) < 1) enemySpeedY = enemySpeedY > 0 ? 1 : -1;
